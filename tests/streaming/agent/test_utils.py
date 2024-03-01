@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional, Union
 from openai.openai_object import OpenAIObject
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from vocode.streaming.models.actions import (
     ActionConfig,
     ActionInput,

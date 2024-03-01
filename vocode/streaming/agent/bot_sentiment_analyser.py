@@ -1,7 +1,7 @@
 from typing import List, Optional
 from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 
 from vocode import getenv
 

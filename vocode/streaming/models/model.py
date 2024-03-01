@@ -1,5 +1,5 @@
 from typing import Any, List, Tuple
-from pydantic.v1 import BaseModel as PydanticBaseModel
+from pydantic import BaseModel as PydanticBaseModel
 
 
 class BaseModel(PydanticBaseModel):
@@ -16,7 +16,7 @@ class BaseModel(PydanticBaseModel):
         super().__init__(**data)
 
 
-# Adapted from https://github.com/pydantic.v1/pydantic.v1/discussions/3091
+# Adapted from https://github.com/pydantic/pydantic/discussions/3091
 class TypedModel(BaseModel):
     _subtypes_: List[Tuple[Any, Any]] = []
 

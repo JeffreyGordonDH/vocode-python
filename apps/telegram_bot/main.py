@@ -4,7 +4,7 @@ import pickle
 import logging
 import inspect
 from collections import defaultdict
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from typing import Tuple, Union, Optional, Dict, Type, List
 from pydub import AudioSegment
 from telegram import Update

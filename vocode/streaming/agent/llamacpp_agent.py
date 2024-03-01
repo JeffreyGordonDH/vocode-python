@@ -15,7 +15,7 @@ from langchain.prompts import (
     MessagesPlaceholder,
     HumanMessagePromptTemplate,
 )
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from langchain.schema import LLMResult, SystemMessage, get_buffer_string
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import (

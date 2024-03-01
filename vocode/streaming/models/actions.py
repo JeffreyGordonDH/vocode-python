@@ -1,7 +1,7 @@
 import asyncio
 from enum import Enum
 from typing import Generic, Optional, TypeVar
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from vocode.streaming.models.model import TypedModel
 
 

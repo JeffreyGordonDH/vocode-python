@@ -3,7 +3,7 @@ from langchain import ConversationChain
 import logging
 
 from typing import Optional, Tuple
-from pydantic.v1 import SecretStr
+from pydantic import SecretStr
 from vocode.streaming.agent.base_agent import RespondAgent
 
 from vocode.streaming.agent.utils import get_sentence_from_buffer

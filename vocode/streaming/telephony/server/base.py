@@ -3,7 +3,7 @@ from functools import partial
 import logging
 from typing import List, Optional
 from fastapi import APIRouter, Form, Request, Response
-from pydantic.v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from vocode.streaming.agent.factory import AgentFactory
 from vocode.streaming.models.agent import AgentConfig
 from vocode.streaming.models.events import RecordingEvent
